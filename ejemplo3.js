@@ -30,3 +30,14 @@ for(let i = 0; i<arr.length; i++){
         mayor = arr[i];
     }
 }
+console.log(mayor); 
+
+//TAREA3: ENCONTRAR EL NÚMERO MENOR
+console.log("Encontrar el menor");
+menor = arr[0];
+for(let i = 0; i<arr.length; i++){
+    if(arr[i] < menor){
+        menor = arr[i];
+    }
+}
+console.log(menor);
