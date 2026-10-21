@@ -41,3 +41,17 @@ for(let i = 0; i<arr.length; i++){
     }
 }
 console.log(menor);
+
+//TAREA4: CONTAR NÚMEROS PARES
+Console.log("Contar números pares");
+let contadorPares = 0;
+for(let i = 0; i<arr.length; i++){
+    if(arr[i] % 2 == 0){
+        contadorPares++;
+    }
+}
+console.log("Número de elementos pares: " + contadorPares);
+
+//TAREA5: CALCULAR PROMEDIO
+console.log("PROMEDIO");
+console.log(suma/arr.length);
